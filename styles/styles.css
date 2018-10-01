@@ -1,8 +1,25 @@
 @charset "utf-8";
 /* main portfolio styles */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed'); 
-body {
-	font-family:  'Roboto Condensed', sans-serif; 
+
+
+
+	
+/*aldrig brug # !!!!!!! i felxbox-metoden*/
+nav a {
+	color: black;
+	text-decoration: none;
+	margin: 1px 15px 1px 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	mergin-left: 0;
 	
 }
+	
+	
+
+
+	
+	
+ 
+	
+
