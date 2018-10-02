@@ -11,10 +11,30 @@ nav a {
 	text-decoration: none;
 	margin: 1px 15px 1px 15px;
 	font-family: 'Roboto Condensed', sans-serif;
-	mergin-left: 0;
+	position: relative; /*bruges til give valgte ting (i dette tilfælde menuen) et sted og gå efter så jeg kan flytte den*/
+	left: 785px;	/*rykker den mod left, da den ikke skal rykke til venstre, men skal gå 550px ud fra venstre*/
+	margin-right: 30px;/*using margin and padding for spacing, in my menu text*/
+	margin-left: 70px;
+	display-inline: flex;
+	top: 85px;
+	letter-spacing: 1px;
+	
+	
 	
 }
 	
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 8px;
+	font-size: 70px;
+	font-weight: 250;
+	position:relative;
+	left: 52px;
+	top: -27px;
+	
+}
+
 	
 
 
