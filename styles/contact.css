@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.container {
+	box-sizing: border-box;
+	position: relative;
+	width: 40%;
+	border: solid #C1C1C1;
+	font-family: 'Roboto Condensed', sans-serif;
+	left: 30%;
+	
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #CDCDCD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #797979;
+}
+
+/* Style the container/contact section */
+.container { 
+     padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
