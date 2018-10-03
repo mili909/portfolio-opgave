@@ -1,43 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
-nav a {
-	color: black;
-	text-decoration: none;
-	margin: 1px 15px 1px 15px;
-	font-family: 'Roboto Condensed', sans-serif;
-	position: relative; /*bruges til give valgte ting (i dette tilfælde menuen) et sted og gå efter så jeg kan flytte den*/
-	left: 785px;	/*rykker den mod left, da den ikke skal rykke til venstre, men skal gå 550px ud fra venstre*/
-	margin-right: 30px;/*using margin and padding for spacing, in my menu text*/
-	margin-left: 70px;
-	display-inline: flex;
-	top: 75px;
-	letter-spacing: 1px;
-	
-	
-	
-}
-
-h1 {
-	font-family: 'Roboto Condensed', sans-serif;
-	letter-spacing: 10px;
-	font-size: 70px;
-	font-weight: 300;
-	position: relative;
-	left: 52px;
-	top: -37px;
-	text-shadow: 4px 5px 7px #D5DBDB;
-
-	
-}
+/*Intern stylesheet*/
 
 
 
 
-h1 {
-	border-bottom-style: solid;
-	color: black;
-	width: 1353px;
-	
-}
 
