@@ -9,6 +9,8 @@ div.container {
 	font-family: 'Roboto Condensed', sans-serif;
 	left: 30%;
 	
+	
+	
 }
 
 
@@ -17,7 +19,7 @@ input[type=text], select, textarea {
     width: 95%;
     padding: 12px;
     border: 1px solid #ccc;
-    margin-top: 6px;
+	margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
@@ -37,6 +39,7 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .container { 
      padding: 10px;
+	
 }
 
 
