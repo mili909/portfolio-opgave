@@ -60,7 +60,11 @@ div.information {
 
 
 
-
+div.mobile {
+	position: relative;
+	left: 60%;
+	bottom: 45vh;
+}
 
 
 

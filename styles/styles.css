@@ -46,8 +46,8 @@ h1 {
 p {
 	position: relative;
 	font-family: 'Roboto Condensed', sans-serif;
-	top: 25px;
-	left: 46px;
+	top: 3vh;
+	left: 3%;
 	letter-spacing: 10px;
 	display: inline;
 }
@@ -76,13 +76,13 @@ div.firkant {
 img.yellowme {
 	position:absolute;
 	top: 16%;
-	left: 52px;
+	left: 3.4%;
 	
 }
 img.logo {
 	position: relative;
-	left: 830px;
-	bottom: 60px;
+	left: 55%;
+	bottom: 4vh;
 	
 	
 	
