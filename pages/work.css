@@ -5,23 +5,22 @@
 
 
 
-div.flex-item {
-	
+#row {
+
 	display: flex; 
-		flex-direction: row;
+
 		flex-wrap: wrap;
-		justify-content: space-around; /*fordeler "børnene" vandret*/
-		height: 50%;
+		justify-content: center; /*fordeler "børnene" vandret*/
+		height: 100%;
 	width: 100%;
+	position:relative;
+	
 		
-		align-items: flex-start; /* fordeler "børnene" /flex items) lodret*/
+		align-items: flex-end; /* fordeler "børnene" /flex items) lodret*/
 		align-content: flex-end; /*fordeler "børnene", når de ligger i flere rækker */
+	
 }
 
-
-.flex-item{
-		flex: 33.33%;
-		margin: 10px;
-		padding: 5px;
-		width: 200px;
-	}
+div.flex-item {
+	margin: 3%;
+}
