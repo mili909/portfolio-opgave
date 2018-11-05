@@ -12,20 +12,20 @@ nav a {
 	margin-right: 30px;/*using margin and padding for spacing, in my menu text*/
 	margin-left: 70px;
 	display-inline: flex;
-	top: 73px;
+	top: 93px;
 	letter-spacing: 1px;
 	
 	
 }
 
 nav a:hover {
-	color:blue;
+	color:orange;
 }
 
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;
 	letter-spacing: 10px;
-	font-size: 50px;
+	font-size: 70px;
 	position: relative;
 	font-weight: 300;
 	left: 3%;
@@ -49,14 +49,11 @@ div.line {
 	
 }
 
-div.firkant {
-	position: relative;
-	top: 25vh;
-	width: 98%;
-	right: 2%;
-	border: solid #B1B1B1;
-}
+.body {
+	
+	height: 100%; /* Sets the body to fill the whole screen */
 
+}
 
 
 

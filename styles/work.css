@@ -7,32 +7,33 @@
 
 #row {
 
-	display: flex; 
+    display: flex;
 
-		flex-wrap: wrap;
-		justify-content: center; /*fordeler "børnene" vandret*/
-		height: 80%;
-	width: 80%;
-	position:relative;
-	left: 10%;
-	
-		
-		align-items: flex-end; /* fordeler "børnene" /flex items) lodret*/
-		align-content: flex-end; /*fordeler "børnene", når de ligger i flere rækker */
-	bottom: 5vh;
-	
+        flex-wrap: wrap;
+        justify-content: center; /*fordeler "børnene" vandret*/
+        height: 80%;
+    width: 80%;
+    position:relative;
+    left: 10%;
+    
+        
+        align-items: flex-end; /* fordeler "børnene" /flex items) lodret*/
+        align-content: flex-end; /*fordeler "børnene", når de ligger i flere rækker */
+    bottom: 5vh;
+    
 }
 
 
 
 
+
 div.flex-item {
-	margin: 1%;
-	opacity: 1;
-	transition: .5s ease;
-	
-	
-	
+    margin: 1%;
+    opacity: 1;
+    transition: .5s ease;
+    
+    
+    
 
 }
 

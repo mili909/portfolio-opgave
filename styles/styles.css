@@ -6,20 +6,7 @@
 
 	
 /*aldrig brug # !!!!!!! i felxbox-metoden*/
-nav a {
-	color: black;
-	text-decoration: none;
-	margin: 1px 15px 1px 15px;
-	font-family: 'Roboto Condensed', sans-serif;
-	position: relative; /*bruges til give valgte ting (i dette tilfælde menuen) et sted og gå efter så jeg kan flytte den*/
-	left: 785px;	/*rykker den mod left, da den ikke skal rykke til venstre, men skal gå 550px ud fra venstre*/
-	margin-right: 30px;/*using margin and padding for spacing, in my menu text*/
-	margin-left: 70px;
-	display-inline: flex;
-	top: 95px;
-	letter-spacing: 1px;
-	
-}
+
 
 
 
@@ -46,67 +33,37 @@ h1 {
 p {
 	position: relative;
 	font-family: 'Roboto Condensed', sans-serif;
-	top: 3vh;
+	top: 2vh;
 	left: 3%;
 	letter-spacing: 10px;
-	display: inline;
-}
-
-
-div.line {
-	border-bottom-style: solid;
-	color: black;
-	width: 1360px;
-	position: relative;
-	top: 15px;
-	left: 46px;
-	
 	
 }
 
-div.firkant {
-	position: relative;
-	top: 200px;
-	width: 98%;
-	right: 50px;
-	border: solid #B1B1B1;
-}
+
+
+	
+
+.logo{	
+	
+	
+	right: 39%;
+	top: 35%;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 4px 10px 20px #363636;
+	
+	
+	
+	}
+
+.gif {
+	
  
-
-img.yellowme {
-	position:absolute;
-	top: 16%;
-	left: 3.4%;
-	
-}
-img.logo {
+	bottom: 5vh;
+	left: 20%;
 	position: relative;
-	left: 55%;
-	bottom: 4vh;
 	
 	
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 
