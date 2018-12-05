@@ -5,6 +5,13 @@
 
 
 
+
+
+
+
+
+
+
 #row {
 
     display: flex;
@@ -19,7 +26,7 @@
         
         align-items: flex-end; /* fordeler "børnene" /flex items) lodret*/
         align-content: flex-end; /*fordeler "børnene", når de ligger i flere rækker */
-    bottom: 5vh;
+    top: 20vh;
     
 }
 
@@ -27,25 +34,16 @@
 
 
 
-div.flex-item {
+.flex-item:hover {
     margin: 1%;
-    opacity: 1;
+    opacity: 10;
     transition: .5s ease;
+	
     
     
     
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

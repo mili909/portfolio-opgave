@@ -12,19 +12,7 @@
 
 	
 
-h1 {
-	font-family: 'Roboto Condensed', sans-serif;
-	letter-spacing: 10px;
-	font-size: 70px;
-	position: relative;
-	font-weight: 300;
-	left: 45px;
-	top: 20px;
-	text-shadow: 4px 5px 7px #D5DBDB;
-	display: inline;
 
-	
-}
 
 
 
@@ -32,10 +20,11 @@ h1 {
 
 p {
 	position: relative;
-	font-family: 'Roboto Condensed', sans-serif;
-	top: 2vh;
-	left: 3%;
-	letter-spacing: 10px;
+	font-family: 'indie Flower', sans-serif;
+	left: 5%;
+	letter-spacing: 8px;
+	bottom: 9vh;
+	font-size: 20px;
 	
 }
 
@@ -46,24 +35,26 @@ p {
 .logo{	
 	
 	
-	right: 39%;
-	top: 35%;
+	right: 35%;
+	top: 38%;
 	z-index: 1;
 	position: absolute;
-	box-shadow: 4px 10px 20px #363636;
 	
 	
+
 	
 	}
 
 .gif {
 	
  
-	bottom: 5vh;
-	left: 20%;
+	bottom: 10vh;
+	left: 23%;
 	position: relative;
 	
 	
 	
 }
+
+
 
