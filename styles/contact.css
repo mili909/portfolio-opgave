@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
+
 div.container {
 	box-sizing: border-box;
 	position: relative;
@@ -66,6 +69,15 @@ div.information {
 	position: relative;
 	left: 65%;
 	bottom: 35vh;
+	max-width: 50%
+	
+}
+/*For mobilen til og forsvinde når jeg skaller ned i 800px*/
+
+@media screen and (max-width:800px) {
+	#mobildrawing{
+		display: none; 
+	}
 }
 
 

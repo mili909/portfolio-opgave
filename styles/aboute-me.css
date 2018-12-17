@@ -2,101 +2,46 @@
 /* CSS Document */
 
 
+body {
 
-img.me1 {
-position:relative;
-	left: 20%;
-	top: 40%;
+}
+
+
+
+
+.align-text {
+	text-align: center;
+	font-family: 'Roboto Condensed', "sans-serif";
 	
 }
 
-p.tekst {
-	
-	position: absolute;
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align:center;
-	left: 40%;
-	top: 24%;
-	line-height: 1.8;
-	padding: 10px;
-	width: 600px;
-	background: #F1F1F1;
-	border: solid #B4B4B4; 
-		
+
+.tekst {
+	line-height: 2;
+	font-family: "Roboto Condensed", "sans-serif";
 	
 }
 
 
 
-
-
-
-img.pencil{
-	position: absolute;
-	left: 45%;
-	bottom: 15%;
-	z-index: 1;
-
-}
-
-
-
-img.bag {
-	position: absolute;
-	left: 20%;
-	bottom: 15%;
-	z-index: 1;
+#space-info {
+	
+	padding-top: 2%; 
 	
 }
 
 
 
-img.hat {
-	position: absolute;
-	left: 70%;
-	bottom: 15%;
-	z-index: 1;
-}
-
-area {
-	width: 300px; 
-  height: 300px; 
-  background: url(../images/abe-bg.png) no-repeat; 
-  position: relative;
+#space_skills{
 	
+	padding-bottom: 5%;
+	padding-top: 5%;
 }
 
 
 
-
-div.studies {
-	position: absolute; 
-  left: 69%; 
-  top: 85%; 
-  width: 190px; 
-  height: 84px; 
-  display: table;
-}
-
-
-
-
-.studies p {
-	display: table-cell; 
-  vertical-align: middle; 
-  text-align: center; 
-	font-family: 'Roboto Condensed', sans-serif;
-	line-height: 1.3;
-}
-
-
-
-
-.area-skills {
-	width: 300px; 
-  height: 300px; 
-  background: url(../images/abe-bg.png) no-repeat; 
-  position: relative;
+.info {
+	padding-top: 6%;
 	
 }
 
@@ -107,107 +52,6 @@ div.studies {
 
 
 
-
-
-div.pencil {
-	position: absolute; 
-  left: 75%; 
-  bottom: 70%; 
-  width: 210px; 
-  height: 84px; 
-  display: table;
-	padding: 2%;
-}
-
-
-
-
-.pencil p {
-	display: table-cell; 
-  vertical-align: middle; 
-  text-align: center; 
-	font-family: 'Roboto Condensed', sans-serif;
-	line-height: 1.3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.area-pencil {
-	width: 300px; 
-  height: 300px; 
-  background: url(../images/abe-bg.png) no-repeat; 
-  position: relative;
-	
-}
-
-
-
-
-div.pencil {
-	position: absolute; 
-  left: 75%; 
-  bottom: 42%; 
-  width: 210px; 
-  height: 84px; 
-  display: table;
-	
-}
-
-
-
-
-.pencil p {
-	display: table-cell; 
-  vertical-align: middle; 
-  text-align: center; 
-	font-family: 'Roboto Condensed', sans-serif;
-	line-height: 1.3;
-}
-
-
-
-
-
-
-
-
-
-
-
-div.job {
-		position: absolute; 
-  left: 75%; 
-  bottom: 70%; 
-  width: 210px; 
-  height: 84px; 
-  display: table;
-	padding: 2%;
-}
-
-
-.job p {
-	display: table-cell; 
-  vertical-align: middle; 
-  text-align: center; 
-	font-family: 'Roboto Condensed', sans-serif;
-	line-height: 1.3;
-}
-
-
-div.area-job {
-	position: relative;
-	right: 37%;
-	bottom: 7vh;
-}
 
 
 

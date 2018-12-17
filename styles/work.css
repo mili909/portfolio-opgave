@@ -7,7 +7,11 @@
 
 
 
-
+#school {
+	font-family: "indie flower";
+	font-size: 35px;
+	text-align: center;
+}
 
 
 
@@ -26,23 +30,32 @@
         
         align-items: flex-end; /* fordeler "børnene" /flex items) lodret*/
         align-content: flex-end; /*fordeler "børnene", når de ligger i flere rækker */
-    top: 20vh;
+    top: 5vh;
+	
     
 }
 
 
 
-
+.flex-item {
+	margin: 2%;
+}
 
 .flex-item:hover {
     margin: 1%;
     opacity: 10;
-    transition: .5s ease;
+    transition: .8s ease;
 	
     
     
     
 
+}
+
+.name {
+	font-family: "indie flower", "sans-serif";
+	font-size: 20px;
+	text-align: center;
 }
 
 
