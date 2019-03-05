@@ -50,7 +50,7 @@ p {
 .gif {
 	
  
-	bottom: 10vh;
+	bottom: 20vh;
 	left: 23%;
 	position: relative;
 	z-index: 1;
@@ -108,11 +108,23 @@ opacity:1;
 
 
 
+@media (max-width:500){
+	img .gif {
+		padding-top: 50%;
+		
+	}
+}
 
 
 
-
-
+@media (max-width:500){
+	p .welcome {
+		font-size: 5px;
+		
+		
+		
+}
+	}
 
 
 

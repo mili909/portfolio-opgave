@@ -2,16 +2,22 @@
 /* CSS Document */
 /*ekstern stylesheet*/
 
-nav a {
+
+/*foont*/
+	
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker');
+
+
+.topnav a {
 	color: black;
 	text-decoration: none;
 	/*(fjernede) margin: 1px 15px 1px 15px;*/
 	font-family: 'indie Flower', sans-serif; /*Roboto Condensed*/
 	position: relative; /*bruges til give valgte ting (i dette tilfælde menuen) et sted og gå efter så jeg kan flytte den*/
-	left: 58%;	/*rykker den mod left, da den ikke skal rykke til venstre, men skal gå 550px ud fra venstre*/
+	left: 51%;	/*rykker den mod left, da den ikke skal rykke til venstre, men skal gå 550px ud fra venstre*/
 	/*(fjernet) margin-right: ;*//*using margin and padding for spacing, in my menu text*/
-	margin-left: 4%;/*space between the navs*/
-	/*jernet display-inline: flex;*/
+	margin-left: 2%;/*space between the navs*/
+	/*fjernet display-inline: flex;*/
 	top: 5vh;
 	letter-spacing: 1px;
 	font-size: 25px;
@@ -25,7 +31,7 @@ nav a {
 
 
 
-nav a:hover {
+.topnav a:hover {
 	color:orange;
 }
 
@@ -52,9 +58,41 @@ div.line {
 	position: relative;
 	left: 5%;
 	bottom: 8vh;
+	z-index: 99;
 	
 	
 }
+
+
+
+@media (max-width:500px){
+	#nav a {
+		width: 200px;
+		font-size: 15px;
+		left: 80px;
+		top: 60px;
+		
+		
+		
+	}	
+}
+
+@media (max-width:500px){
+	h1 {
+		font-size: 30px;
+		top: 1px; 
+		left: 130px;
+	}
+}
+
+
+@media (max-width:500px){
+	.line {
+		display: none;
+	}
+}
+
+
 
 
 .body {
@@ -63,16 +101,7 @@ div.line {
 
 }
 
-/*vertical line Contact page*/
-/*removed vertical line for now... div#verticalline {
-	border-bottom-style: solid;
-	color: black;
-	width: 30%;
-	position: relative;
-	left: 35%;
-	bottom: 14vh;
-	transform: rotate(90deg);
-	}*/
+
 
 
 
@@ -94,7 +123,7 @@ div.some{
 
 /*bruges til h1/h2 overskrift i work og work siderne*/
 #school {
-	font-family: "indie flower";
+	font-family: "indie flower", sans-serif;
 	font-size: 45px;
 	text-align: center;
 	color: #FFA438;
@@ -127,7 +156,7 @@ div.some{
 .link {
 	font-family: "indie flower", "sans serif";
 	color: black;
-	font-size: 20px;
+	font-size: 17px;
 		
 }
 		
@@ -136,8 +165,16 @@ div.some{
 }
 
 
+.link-neden {
+	color: black;
+	padding-bottom: 5%;
+	font-size: 20px;
+	font-family: "indie flower", "sans-serif";
+}
 
-
+.link-neden:hover {
+	color:orange;
+}
 
 
 /*har givet hvert side som man skal være på en class som heder active, så jeg viser brugeren hvilken side de er på*/
@@ -147,17 +184,14 @@ div.some{
 }
 
 
-.col-1-2 {
-	padding-top: 4%;
+
+
+.col-1-4 {
 	padding-bottom: 2%;
 }
 
-.col-1-4 {
-	padding-bottom: 5%;
-}
-
 .col-1-1 {
-	padding-top: 4%;
+	padding-top: 2%;
 }
 
 
@@ -170,11 +204,89 @@ div.some{
 }
 
 
-@media (max-width:500px){
-	#nav {
-		width: 300px;
-	}	
+
+
+
+.font-head {
+	font-family: "indie flower", "sanse serif";
+	font-size: 40px;
+	
 }
+
+
+#side {
+	text-decoration: none;
+	color: coral;
+}
+
+
+
+
+
+/*Footer design*/
+
+
+#h3 {
+	
+	color: #999999;
+	
+	
+	
+	
+}
+
+footer {
+	background-color:#E3E3E3;  
+	/*background-color:rgba(255,176,83, .4); til at give background opacity*/
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 130%;
+	
+	
+}
+
+.information {
+	font-family: 'Roboto Condensed', sans-serif;
+	display: inline;
+	margin: 3%;
+	color: #999999;
+	font-size: 80%;
+	
+	
+	
+	
+	
+}
+
+.someto {
+	margin: 4%;
+	
+	
+	
+	
+	
+	
+}
+
+#by{
+	color: #999999;
+	font-size: 80%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

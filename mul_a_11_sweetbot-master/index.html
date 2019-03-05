@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en-DK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweetbot.DESIGN</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>
+    $(function() {
+     
+        $("#slideshow > div:gt(0)").hide();
+ 
+        setInterval(function() { 
+          $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+        },  3000);
+         
+    });
+
+
+// Åbner søge menuen når man trykker på kassen & billedet, og lukker menuen når man trykker vilkårigt sted.
+window.onclick = function(event) {
+	// console.log(event.target.id)	
+	if(event.target.id !== 'searchbox'){
+	if(event.target.id === 'search'){
+	document.getElementById("myDropdown").classList.toggle("show");	
+	}
+	}
+	
+}
+
+
+
+
+
+
+
+
+</script>
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
+</head>
+
+<body>
+<header>
+  <div class="container">
+    <nav class="navigation"> <a href="#"> <img src="img/sweetbotv2.2.png" id="sweetbotlogo" alt="Logo"></a> <a href="#" id="header-a">Home</a> <a href="#Services" id="header-b">Services</a> <a href="#Projekter" id="header-c">Projekter</a> <a href="#Om-os" id="header-d">Om os</a> <a href="#Kontakt" id="header-e">Kontakt</a>
+      <div class="dropdown">
+        <button class="dropbtn" id="search"><img src="img/mikroskop" alt="søgeknap" class="search" id="search"></button>
+        <div id="myDropdown" class="dropdown-content">
+          <form class="search-form" id="searchbox">
+            <input id="searchbox" type="text" placeholder="Søg her">
+            <button id="searchbox">Søg</button>
+          </form>
+        </div>
+      </div>
+      <div id="burgermenu">
+        <div class="burgerdown"> <img src="img/burgermenuikon.png" alt="burgermenu" class="burger-button" width="35" height="15">
+          <div class="burger-content"> <a href="#">Home</a> <a href="#Services">Services</a> <a href="#Projekter">Projekter</a> <a href="#Om-os">Om os</a> <a href="#Kontakt">Kontakt</a> </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div id="slideshow">
+  <div><img src="img/billede1.jpeg" alt="placeholder1" class="img-slide"></div>
+  <div><img src="img/photo-homepage3.jpg" alt="placeholder2" class="img-slide"></div>
+  <div><img src="img/lets-get-startet.jpg" alt="placeholder3" class="img-slide"></div>
+  <div><img src="img/hotbotlogo.v2.0.png" alt="hotbot logo" class="img-slide"></div>
+</div>
+<div class="fade-in one">
+  <div id="hotbotE"> <img src="img/hotbot-e-com.v2.0.png" alt="Hot bot ecommerce" style="width:350px"></div>
+</div>
+<section class="Services-light" id="Services"><br><br>
+  <div class="tlf-billede"></div>
+  <h2>Services</h2><br>
+  <p id="textlorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sed nisi reiciendis minima, autem soluta sequi sit! Minus aliquid labore unde aliquam qui quia et ducimus libero, inventore nobis beatae earum, eligendi blanditiis fuga. Mollitia, exercitationem, veniam. Quibusdam natus dolores delectus aperiam assumenda, itaque eligendi id tempora, cupiditate, expedita ipsum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error provident doloribus eum harum. Eos quos quisquam magnam quae reiciendis tempore fugit magni, culpa. Eum reiciendis, consectetur fugiat numquam optio nulla, sunt id, minima iusto consequuntur, alias et distinctio. Porro reprehenderit, vitae ducimus placeat deserunt, qui in ea tempore autem temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laudantium vel consequatur ab nobis. Iusto iste corporis placeat hic quae aut tenetur, ipsa minus repellat possimus in molestiae sed repudiandae nulla molestias provident illum ullam, ad voluptatum natus. Eveniet est, asperiores, porro modi magni error aliquid rerum tenetur quam quidem vel hic obcaecati! Sapiente, explicabo, architecto. Consectetur dolorum qui excepturi magni. Earum dicta consequatur sed, praesentium, quia alias iusto repudiandae eum dolorem eaque optio, impedit aliquid veniam accusantium assumenda a neque temporibus enim nemo perspiciatis est magni maxime? Eum sunt nostrum, recusandae. Laboriosam tenetur, eum sed, impedit quas ipsum quis.</p><br>	
+</section>
+<section id="services-img">
+  <div class="containerweb">
+    <div id="overlay" onclick="off()">
+      <div id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sit eveniet, odit necessitatibus blanditiis fugiat delectus pariatur eaque quo dignissimos?</div>
+    </div>
+    <div class="box">
+      <img src="img/photo-kontak-os.jpg" alt="billede af webudvikling"> 
+	  <p> <button class="knap1"> webudvikling </button></p>
+	  </div>
+  </div>
+  <div class="box"> <img src="img/security-protection-anti-virus-software-60504.jpeg" alt="billede af secrurity"> 
+	<p> <button class="knap2">Security </button></p>
+	</div>
+	
+  <div class="box"> <img src="img/supremerød.jpg" alt="supreme logo"> </div>
+	<button class="knap3">Branding </button>
+</section>
+<div class="container">
+  <section class="Services-light" id="Projekter"><br>
+	<br>
+    <h2>Projekter</h2><br>
+    <p id="textlorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sed nisi reiciendis minima, autem soluta sequi sit! Minus aliquid labore unde aliquam qui quia et ducimus libero, inventore nobis beatae earum, eligendi blanditiis fuga. Mollitia, exercitationem, veniam. Quibusdam natus dolores delectus aperiam assumenda, itaque eligendi id tempora, cupiditate, expedita ipsum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci nobis reprehenderit, odio, ut aut dolorum necessitatibus. Natus autem maiores architecto rem, ratione explicabo nulla libero eius voluptatibus cupiditate dignissimos soluta magni reprehenderit minima voluptatum, numquam rerum nemo beatae dolore laudantium veniam commodi! Et explicabo hic accusamus libero aliquam vel dolorem error ipsam pariatur nihil laboriosam, cum velit eveniet labore quidem laudantium iure soluta accusantium rerum. Enim, aspernatur error doloremque eos assumenda optio repellendus! Aspernatur corporis quisquam, dicta quasi impedit commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum harum similique cumque doloremque quisquam, quibusdam itaque aut vero quia minus nostrum accusamus enim maiores fugit culpa, aperiam? Odio quae blanditiis tempore neque libero numquam voluptas, officiis vel laborum eaque temporibus esse facere enim commodi corporis nam animi mollitia nisi a quidem perferendis doloremque autem est? Voluptate quas aut beatae illo, consectetur. Eveniet voluptates, architecto doloribus animi, repellat voluptatem ipsam eum nemo consequuntur debitis iure. Quidem adipisci voluptatum debitis assumenda quae totam delectus fugiat temporibus suscipit iusto dolorem magni, eos explicabo saepe dolores obcaecati qui modi nemo deleniti incidunt hic aliquam.</p><br>
+  </section>
+</div>
+<div class="flex-container">
+  <div class="pic2"> <img src="img/projekter-img/img2.png" alt="placeholder5"> </div>
+  <div class="pic3"> <img src="img/projekter-img/img3.jpg" alt="placeholder6"> </div>
+  <div class="pic4"> <img src="img/projekter-img/img4.jpg" alt="placeholder7"> </div>
+  <div class="pic5"> <img src="img/projekter-img/img5.PNG" alt="placeholder8"> </div>
+  <div class="pic6"> <img src="img/projekter-img/img6.jpg" alt="placeholder9"> </div>
+  <div class="pic7"> <img src="img/projekter-img/img7.jpg" alt="placeholder10"> </div>
+</div>
+<section class="Services-light" id="Om-os"><br><br>
+  <h2>Om os</h2><br>
+  <p id="textlorem1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ab tempore quam illo voluptas perferendis cumque, officia unde sunt, quia, quidem tempora quibusdam facilis aut quis incidunt fugit facere. Non facere doloremque animi numquam alias quas odio accusantium dolorem reiciendis tempore. Rerum ipsam aliquam dolore tempore quisquam corrupti reprehenderit natus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sed nisi reiciendis minima, autem soluta sequi sit! Minus aliquid labore unde aliquam qui quia et ducimus libero, inventore nobis beatae earum, eligendi blanditiis fuga. Mollitia, exercitationem, veniam. Quibusdam natus dolores delectus aperiam assumenda, itaque eligendi id tempora, cupiditate, expedita ipsum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aliquid sunt officia accusantium, harum laborum nisi doloremque ex. Labore natus, quidem nostrum. Aut doloremque excepturi minus harum hic sapiente, architecto ut similique saepe adipisci aspernatur qui rem enim laborum nam earum, quisquam et! Dignissimos eius hic doloremque tempora corporis, placeat aliquam, assumenda quod sapiente, vel cumque quasi dolor, dicta!</p><br>
+</section>
+<section id="CEO">
+  <div class="ceobox"> <img src="img/placeholder_ceo_marc.jpg"  alt="team billede">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit cupiditate nihil, esse corporis. Magni aliquam, eum, vel at ex eaque.</p>
+  </div>
+  <div class="ceobox"> <img src="img/placeholder_ceo_woman.jpg" alt="placeholder af en kvinde">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus facilis, beatae explicabo expedita animi quam sed, a voluptatem nihil ullam.</p>
+  </div>
+</section>
+<!-- contact form -->
+<section id="kontaktbox">
+  <footer>
+    <h2 class="kontakt" id="Kontakt">Kontakt</h2>
+    <div id="contactbox">
+      <div class="footercontact">
+        <ul class="klassiske-ikoner">
+          <li> <img class="klassisk-ikon" alt="virksomheds ikon" src="img/virksomhed-ikon.png">
+            <p class="ikontext ia">Virksomhed: Sweetbot Design</p>
+          </li>
+          <li> <img class="klassisk-ikon" alt="CEO ikon" src="img/ceo-ikon.png">
+            <p class="ikontext ib">CEO's: Merete Geldermann | Marc Kluge</p>
+          </li>
+          <li> <img class="klassisk-ikon" alt="Email ikon" src="img/email-ikon.png">
+            <p class="ikontext ic">Email: mli@cphbusiness.dk| klu@cphbusiness.dk</p>
+          </li>
+          <li> <img class="klassisk-ikon" alt="Skole ikon" src="img/adresse-ikon.png">
+            <p class="ikontext id">Adresse: Nørgaardsvej 30, 2800 Kgs. Lyngby</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="footercontactbox">
+      <div class="footercontact2"> <img class="facebook column" src="img/fb.green.png" alt="Facebook green logo"> <img class="Linkedin column" src="img/linked.green.png" alt="Linkedin Green logo"> <img class="Twitter column" src="img/twit.green.png" alt="Twitter green logo"> <img class="Instagram column" src="img/insta.green.png" alt="instagram green logo"> </div>
+    </div>
+  </footer>
+</section>
+</body>
+</html>

@@ -59,6 +59,10 @@
 }
 
 
-
+@media (max-width:500) {
+	#row {
+		padding-top: 40px;
+	}
+}
 
 

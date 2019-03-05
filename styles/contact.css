@@ -82,3 +82,28 @@ div.information {
 
 
 
+.some img {
+	width: 8%;
+}
+
+@media (max-width:500px) {
+ li {
+		font-size: 17px;
+	}
+}
+
+
+@media (max-width:500px) {
+ .some {
+	 
+	 width: 80%;
+		 
+		
+	}
+}
+
+
+
+
+
+

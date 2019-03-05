@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>contact</title>
+<style>
+/* Layout*/
+#container {
+	width: 80%;
+	min-height: 90vh;
+	margin: auto;
+	border: 1px solid black;
+	background: lightgrey;
+}
+#header {
+	border-bottom: 1px solid black;
+	padding: 10px;
+	text-align: center
+}
+#nav {
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+/* Form style */
+form {
+	width: 40vw;
+	margin: 20px auto;
+	border: 1px solid black;
+	padding: 20px;
+}
+</style>
+</head>
+<!-- Navigation -->
+
+<body>
+<!-- main layout container -->
+<div id="container">
+<div id="header">
+	<h1>Contact</h1>
+	</div>
+<div id="nav">
+<nav><a href="../index.html">Home</a><a href="../index.html" target="_self">Back to Introduction</a><a href="new-project.html" target="_self">Vegan 4 Leif</a><a href="contact.html" target="_self">Contact</a><a href="tabel.opgave.html" target="_self">Animal Table</a><a href="https://www.cphbusiness.dk/" target="_blank">My School</a></nav>
+	</div>
+<div id="main">
+	
+<!-- når man laver en form action, er det meget vigtigt at man laver mailto: uden mellemrum -->
+<form action="mailto:Madr1402@hotmail.com" method="post" enctype="text/plain">
+<!-- aldrig glem attributen der hedder "required" -->
+<p>
+  <label>Your Name</label>
+</p>
+<p>
+  <input type="text" name="name" placeholder="type your name.." autofocus required>
+</p>
+<p>
+  <label>Your Email</label>
+</p>
+<p>
+  <input type="email" name="email" placeholder="type your email.." autofocus required>
+</p>
+<label>Your Message</label>
+<p>
+  <textarea name="comment" placeholder="your message..."></textarea>
+</p>
+<p>I love this shit!
+  <input type="radio" name="Love">
+</p>
+<input type="submit" value="Submit Form">
+<!-- de 3 ovenstående arbejder sammen, autofocus required tjekker at der er legit information -->
+	</form></div>
+<div id="footer"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#row {
+
+    display: flex;
+
+        flex-wrap: wrap;
+        justify-content: center; /*fordeler "børnene" vandret*/
+        height: 80%;
+    width: 80%;
+    position:relative;
+    left: 10%;
+    
+        
+        align-items: flex-end; /* fordeler "børnene" /flex items) lodret*/
+        align-content: flex-end; /*fordeler "børnene", når de ligger i flere rækker */
+    top: 5vh;
+	
+    
+}
+
+
+
+.flex-item {
+	margin: 2%;
+}
+
+.flex-item:hover {
+    margin: 1%;
+    opacity: 10;
+    transition: .8s ease;
+	
+    
+    
+    
+
+}
